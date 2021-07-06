@@ -3,36 +3,30 @@
 body {
 	background-color: #f8f9fa;
 }
-h1{
-	color:#001219;
-	text-align: center;
-	font-family: myFirstFont;
-}
 
 
-.blogGrid{
-	display: grid;
-	grid-template-columns:  auto;
-	grid-template-rows:  auto;
-
-}
 .bottomPart{
-padding-left: 500px;
-padding-top: 160px;
-
-font-family: 'Frank Ruhl Libre', serif;
+	display: flex;
+	justify-content: center;
+	font-family: 'Frank Ruhl Libre', serif;
+	flex-direction: column;
+	align-items: center;
+	height: 500px;
+	column-gap: 200px;
+	color: #001219;
+	padding-top: 50px;
 
 }
 a {
 	text-decoration: underline	;
 	color: 	black;
-	line-height: 	30px;
 	font-family: 'Frank Ruhl Libre', serif;
+	line-height: 50px;
 }
-h2{
-	padding-left: 	80px;
-	line-height: 	0.8;
+h2 {
+	line-height: 5px;
 }
+
 /*
 .profileNils{
 	display: 	block;
