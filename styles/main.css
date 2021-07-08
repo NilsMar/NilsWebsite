@@ -24,10 +24,14 @@ a {
 	line-height: 50px;
 }
 h2 {
-	line-height: 5px;
+	line-height: 20px;
 	font-size: 	35px;
 }
-
+figcaption{
+	align-items: center;
+	padding-left: 70vh;
+	padding-right: 60vh;
+}
 /*
 .profileNils{
 	display: 	block;
